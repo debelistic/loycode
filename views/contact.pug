@@ -1,0 +1,40 @@
+extends layout
+
+block content
+	header#header
+		.container
+			h1 You can reach us via...
+	section
+		.row
+			#servp.col-xs-12.col-sm-8.col-md-6.col-lg-8.sec
+				p
+					a(href='https://web.facebook.com/awotidebe.victor1')
+						| Facebook
+						i.fa.fa-facebook-square(style='font-size: 25px')
+				p
+					a(href='https://twitter.com/DopeDebelistic')
+						| Twitter
+						i.fa.fa-twitter-square(style='font-size: 25px')
+				p
+					a(href='https://github.com/debelistic')
+						| Github
+						i.fa.fa-github-square(style='font-size: 25px')
+				p
+					a(href='https://www.linkedin.com/in/victor-awotidebe-4a7b13bb/')
+						| LinkedIn
+						i.fa.fa-linkedin-square(style='font-size: 25px')
+			.col-xs-12.col-sm-4.col-md-6.col-lg-4.sec.qut
+				form#form(method='post', action='contact/send')
+					.form-group
+						label Name
+						br
+						input(type='text', name='name', placeholder='Name')
+					.form-group
+						label Email
+						br
+						input(type='email', name='email', placeholder='Emial Address')
+					.form-group
+						label Message
+						br
+						textarea(placeholder='Type a message')
+					button#mssbtn.btn.btn-default(type='submit') Send

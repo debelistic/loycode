@@ -1,0 +1,275 @@
+
+/* This is created by Victor O. Awotidebe.
+   Check me out on github.com/debelistic
+*/
+body{
+	/*font-family: 'Oldenburg', helvetical;
+	font-size: 22px;*/
+}
+
+h1{
+	color: #00FFFF;
+	margin-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+img{
+	width: 100%;
+}
+
+button{
+	margin-right: : 20px;
+}
+
+input{
+	width: 70%;
+	height: 25px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+textarea{
+	width: 70%;
+	height: 40px;
+	padding: 5px;
+	border-radius: 4px;
+}
+
+p{
+	font-size: 16px;
+}
+
+label{
+	color: #008B8B;
+}
+
+strong{
+	color: #008B8B; 
+}
+
+a{
+	color: #008B8B;
+	font-weight: bolder;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #008B8B;
+}
+
+#header{
+	background: #00FFFF;
+	color: #fff;
+
+}
+
+#header h1{
+	color: #fff;
+}
+
+#form{
+	padding: 0;
+	padding-right: 10px;
+	padding-left: 20px;
+	margin-bottom: 20px 
+}
+
+
+.row{
+	margin-right: 0;
+}
+
+.nav{
+	margin-top: 0;
+}
+
+
+.navbar{
+	background: #008B8B;
+	margin-bottom: 0;
+	border: none;
+	/*border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/	
+}
+
+.navbar-header a {
+    color: #008B8B;
+    font-weight: bolder;
+    text-decoration: none;
+    background: #0ff;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;   
+    border-radius: 4px;
+}
+.navbar-default{
+	border: none;
+}
+
+
+.navbar-default .navbar-nav > li > a{	
+	font-size: 16px;
+	font-weight: bolder;
+	color: #fff;
+	padding-top: 25px;
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background: #00FFFF;
+	color: #53868B;
+	margin: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+	border: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #0ff;
+}
+
+.navbar-toggle{
+	margin-right: 0;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+section{
+	background: #0ff;
+}
+
+#abtimg{
+	
+	float: left;
+	margin: 10px;
+	width: 200px;
+	height: 200px;
+}
+
+/*#008B8B*/
+.sec{
+	
+	margin: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	text-align: justify;
+	background: #008B8B;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+
+}
+
+.sec:nth-child(even){
+	background: #0ff;
+}
+
+.sec img{
+	max-height: 540px;
+
+}
+
+
+.sec h2{
+	margin: 30px;
+	margin-bottom: 0;
+	padding: 10px;
+	padding-bottom: 0;
+	padding-right: 0;
+	text-align: center;
+	border-radius: 4px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	background: #0ff;
+	box-shadow: 2px 2px 4px 2px 
+}
+
+.sec p{
+	margin: 30px;
+	margin-top: 0;
+	padding: 10px;	
+	border-radius: 4px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	background: #0ff;
+	box-shadow: 2px 2px 4px 2px 
+
+}
+
+.sec{
+	padding-right: 0;
+}
+
+.item h2{
+	background: #008B8B;
+	width: 100%;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	color: #0ff;
+}
+
+.carousel-caption h2{
+	color: #fff;
+	background: unset;
+	box-shadow: unset;
+	margin: 25px;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 25px;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.img-thumbnail{
+	background-color: #008B8B;
+	border: none;
+}
+
+#mssbtn{
+	
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	background: #008B8B;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 2px 2px 4px 2px
+	margin-bottom: 40px;
+}
+
+#servp{
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+
+}
+
+#servp p{
+	border-radius: 4px;
+	margin: 20px;
+	padding: 10px;
+	
+}
+
+
+
+.footer{
+	color: #0ff;
+	background: #008B8B;	
+	padding:20px;
+	margin-top:0px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;  	
+}
