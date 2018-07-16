@@ -1,0 +1,2 @@
+LoyCode is a simple website designed using bootstrap on the frontend and Node.js on the backend. The main idea is to help young talents across all platforms own a simple webiste where they can display their skills, products or services.
+The website uses Nodemailer to enable potential client send mails of feedbacks, request and reviews to the service provider.
